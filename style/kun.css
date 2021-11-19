@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -97,7 +101,7 @@ a{
   margin-top: 20px;
 }
 h3{
-    margin-left: 15px;
+    margin-left: 7px;
     margin-top: 17px;
     font-size: 21px;
 }
@@ -140,7 +144,22 @@ h3{
     border-radius: 5px;
     border: 1px solid rgb(187, 181, 181);
     background-color: #fff;
+
 }
+.time1:hover{
+    cursor: pointer;
+}
+
+.vaqt{
+    width: 25px;
+    margin-right: 50px;
+    margin-top: 4px;
+}
+.vaqt1{
+    width: 25px;
+    margin-right: 40px;
+}
+
 .time0{
     width: 150px;
     height: 50px;
@@ -158,16 +177,17 @@ h3{
 
 .name{
     border: 1px solid #fff;
-    background-color: rgb(231, 227, 227);
+    background-color: rgb(236, 232, 232);
     margin-top: 30px;
     width: 100%;
-    height: 100vh;
-   display: flex;
+    height: 120vh;
+    display: flex;
 }
 .name0{
     display: flex;
     flex-direction: column;
     width: 350px;
+    margin-left: 20px;
 }
 .flex{
     color: rgb(72, 134, 226);
@@ -184,7 +204,7 @@ h3{
     margin-left: 70px;
     margin-top: 30px;
     font-size: 16px;
-    width: 60px;
+    width: 50px;
 }
 .flex0:hover{
     text-decoration: underline;
@@ -199,9 +219,18 @@ h3{
     text-decoration: underline;
     cursor: pointer;
 }
-hr{
-    margin-top: 10px;
-    margin-left: 50px;
+.hr1{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.hr2{
+    margin-top: 20px;
+    width: 200px;
+}
+.hr3{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 .flex2{
     margin-left: 5px;
@@ -272,24 +301,402 @@ hr{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* width: px; */
+    width: 600px;
+    margin-left: 50px;
+    
 }
 .flext0{
     margin-left: 70px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .flext1{
-    /* margin-left: 300px; */
-    margin-top: 15px;
     color: rgb(72, 134, 226);
     font-size: 16px;
-    background-color: #5632;
+}
+.flext1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.flext{
+    margin-left: 70px;
+}
+.flextt{
+    display: flex;
+    flex-direction: column;
+    
+    width: 500px;
+    height: 400px;
+    margin-top: -130px;
+   
+}
+.flext2{
+    margin-left: 70px;
+    margin-top: 7px;
+    font-size: 28px;
+    color: #000;
+    transition: .3s;
+}
+.flext2:hover{
+    cursor: pointer;
+    color: rgb(72, 134, 226);
+}
+.flext3{
+    width: 380px;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #000;
+}
+
+.name2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    width: 550px;
   
+}
+.class{
+    color: rgb(72, 134, 226);
+    font-size: 22px;
+    width: 200px;
+    margin-top: 20px;
+
+}.class:hover{
+    cursor: pointer;
+}
+.class0{
+    width: 60px;
+    margin-top: 30px;
+    font-size: 17px;
+    color: rgb(72, 134, 226);
+}
+.class0:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.class1{
+    margin-top: 7px;
+    width: 250px;
+    font-size: 17px;
+    color: #000;
+}
+.class1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.class2{
+    width: 60px;
+   margin-top: 20px;
+   color: rgb(72, 134, 226);
+   font-size: 17px;
+}
+.class2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.class3{
+    margin-top: 7px;
+    width: 245px;
+    font-size: 17px;
+    color: #000;
+}
+.class3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.name3{
+    display: flex;
+    width: 100%;
+    height: 124vh;
+}
+.name4{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 80px;
+    
+}
+
+.img0{
+    margin: 30px 200px;
+}
+.img{
+    width: 600px;
+    height: 350px;
 
 }
-.flext img{
-    width: 500px;
-    height: 270px;
-    margin-top: -220px;
+.img1{
+    width: 60px;
+    margin-top: 20px;
+    color: rgb(72, 134, 226);
+    font-size: 17px;
+}
+.img1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.img2{
+    margin-top: 20px;
+    font-size: 22px;
+    color: #000;
+    transition: .3s;
+}
+.img2:hover{
+    color: rgb(72, 134, 226);
+    cursor: pointer;
+}
+p{
+    margin-top: 20px;
+}
+.name5{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 50px;
+    /* background-color: brown; */
+    
+}
+.img03{
+    width: 100px;
+    border-radius: 90px;
+}
+.img3{
+    width: 100px;
+    height: 100px;
+    border-radius: 90px;
+}
+.name6{
+    margin-top: 20px;
+}
+.img4{
+    width: 120px;
+}
+.img4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.img5{
+    margin-top: 30px;
+    font-size: 20px;
+    color: #000;
+}
+.img5:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.img6{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.name7{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    margin-left: 10px;
+    height: 119vh;
+    margin-left: 40px;
+    background-color: rgb(235, 230, 230);
+}
+.main0{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.main{
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+.main:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.main1{
+    width: 205px;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #000;
+}
+.main1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.main02{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.main2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main3{
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.main3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.style{
+    display: flex;
+    width: 100%;
+    height: 190vh;
+    
+}
+.style0{
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.style01{
+    width: 20px;
     margin-left: 70px;
+}
+.style1{
+    width: 160px;
+    height: 160px;
+  
+}
+.style2{
+    width: 160px;
+    height: 160px;
+    margin-top: 30px;
+}
+.for{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+   
+}
+.for0{
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+.for0:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.for1{
+    width: 355px;
+    margin-left: 20px;
+    margin-top: 12px;
+    font-size: 18px;
+    color: #000;
+}
+.for1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.for2{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.for3{
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.for3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.for4{
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+.for4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.for5{
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 93px;
+    
+}
+.for5:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.for20{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 350px;
+}
+.best{
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+    
+}
+.style02{
+    margin-left: 70px;
+}
+.best0{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+   
+}
+.best1{
+    width: 330px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 19px;
+    color: #000;
+}
+.best1:hover{
+    text-decoration: underline;
+}
+.best2{
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 65px;
+}
+.best2:hover{
+    text-decoration: underline;
+}
+.best3{
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 70px;
+    
+}
+.best3:hover{
+    text-decoration: underline;
+}
+.best4{
+    width: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.best4:hover{
+    text-decoration: underline;
+}
+.san{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: #000;
+}
+.come{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    margin-top: 60px;
+    background-color: rgb(68, 66, 66);
+    
+}
+.come1{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin: 30px 15px;
+    color: #fff;
 }
